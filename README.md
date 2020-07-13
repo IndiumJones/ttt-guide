@@ -19,4 +19,4 @@ Auf C findest einen Shop mit einigen kleinen, aber feinen Spielzeugen.
 * Gründen das Feuer zu eröffnen sind: 1. Der Verdächtige schießt auf Andere  2. Der Verdächtige confirmed keine bodies  
 
 
-[![gameplay](https://files.pallindium.de/gmod/screenshots/ttt_gameplay_casino_1.jpg)]
+![gameplay](https://files.pallindium.de/gmod/screenshots/ttt_gameplay_casino_1.jpg)
