@@ -20,3 +20,4 @@ Auf C findest einen Shop mit einigen kleinen, aber feinen Spielzeugen.
 
 
 ![gameplay](https://files.pallindium.de/gmod/screenshots/ttt_gameplay_casino_1.jpg)
+text
