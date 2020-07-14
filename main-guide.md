@@ -1,18 +1,89 @@
-# Trouble in Terrorist Town (TTT)
-Trouble in Terrorist Town (TTT) ist ein rundenbasierter Multiplayer shooter.
-Am Anfang jeder Runde erhält jeder Spieler eine Rolle, diese entscheidet über die Aufgabe des Spielers in der Runde.
+# TTT main-guide
+
+## Inhalt
+
+- [Das Spielprinzip](#Das-Spielprinzip)
+    - [Haste Mode](#Haste-Mode)
+    - [Standard Modus](#Standard-Modus)
+- [Ablauf einer Runde](#Ablauf-einer-Runde)
+    - [preparing](#preparing)
+    - [Hauptphase](#Hauptphase)
+    - [round over](#round-over)
+- [Rollen](#Rollen)
+    - [Innocent](#Innocent)
+    - [Traitor](#Traitor)
+    - [Detective](#Detective)
+    - [andere Rollen](#andere-Rollen)
+- [Spielelemente](#Spielelemente)
+    - [Shop](#Shop)
+    - [Karma](#Karma)
+
+## Das Spielprinzip
+
+Das Spielprinzip ist ziemlich schnell erklärt. Es gibt zwei Hauptgruppen. Die [Traitor]() und die [Innocents](). Das Ziel ist, das jeweils andere Team auszulöschen. Allerdings haben beide Teams nicht unbedingt die gleichen Vorraussetzungen.
+Eine Runde endet, wenn entweder ein Team das andere oder je nach Spielmodus alle anderen besiegt hat oder das Zeitlimit erreicht ist. Dies kann verschiedene Formen annehmen:
+
+### Haste Mode
+
+Im Haste Mode ist die Dauer der Runde vergleichsweise kurz eingestellt. Diese wird allerdings mit jedem Tod verlängert. (Standardeinstellung)
+
+### Standard Modus
+
+Die Runde ist spätestens vorbei, wenn die Zeit abgelaufen ist.
+
+## Ablauf einer Runde
+
+### preparing
+
+In der "Preparing"-Phase kann jeder Spieler sich mit Waffen ausstatten und sich auf die Runde vorbereiten. Es ist noch nicht Möglich, anderen Spielern Schaden zuzufügen. Allerdings kann man Schaden durch z.B. herunterfallen nehmen. Dieser wird mit Start der Runde zurückgesetzt. Sollte man in der "Preparing"-Phase sterben, respawnt man, sobald die Runde anfängt.
+
+### Hauptphase
+
+Zu Beginn der Hauptphase werden die Rollen (Innocent, Traitor, etc.) festgelegt. Zusätzlich ist es jedem Spieler noch möglich eine [Klasse]() zu wählen, um bestimmte Waffen oder Items zu erhalten (je nach Klasse), die sonst nur über den Shop erhältlich sind.
+Nun beginnt das eigentliche Spiel und läuft wie [oben](#Das-Spielprinzip) beschrieben ab.
+
+### round over
+
+Die "Round-Over"-Phase tritt ein, wenn ein Team die Runde gewonnen hat. Je nach Einstellungen ist es noch Möglich, anderen Spielern Schaden zuzufügen. Dies hat allerdings keinerlei Einfluss auf das Gesamtgeschehen, wie z.B. das [Karma](#Karma).
 
 ## Rollen
-### Innocent
-Das Lämmchen unter den Terrorists, deine Aufgabe ist es herauszufinden wer die schwarzen Schafe der Runde sind unbd dabei nicht abmurksen zu lassen.
-### Traitor
-Das schwarze Schaf unter den Terrorists, deine AUfgabe ist es alles und jeden abzumurksen und dabei möglichst nicht enttarnt zu werden.  
-Auf C findest einen Shop mit einigen kleinen, aber feinen Spielzeugen.
-### Detective
-Der Herdenschutzhund auf der Weide, deine Aufgabe ist es für Recht und Ordnung in der Runde zu sorgen und die Traitoren ausfindig zu machen.  
-Auf C findest einen Shop mit einigen kleinen, aber feinen Spielzeugen.
 
-## Gameplay
-* kommuniziere wer auf wen schießt
-* Als Innocent oder Detective schießt du **niemals** auf den reinen Verdacht auf einen Mitspieler, wenn jemand kurz stehen bleibt, 2 sekunden lang nicht die Maus bewegt und ähnliches sind kein Grund jemanden abzumurksen
-* Gründen das Feuer zu eröffnen sind: 1. Der Verdächtige schießt auf Andere  2. Der Verdächtige confirmed keine bodies
+### Innocent
+
+Das Ziel der Innocents ist simpel: überleben. Meistens geht es jedoch schneller, wenn die Innocents gezielt die Traitor suchen und ausschalten. Haben sie alle gefunden ist die Runde vorbei.
+Die Innocents sehen nur ihre eigene Rolle  und wissen nichts über die Rollen der Mitspieler. Somit könnte jeder um sie herum ein [Traitor](#Traitor) sein.
+Des Weiteren haben Innocents kein Zugriff auf den [Shop](#Shop) und müssen sich mit dem verteidigen, was ihnen die Map zur Verfügung stellt.
+
+### Traitor
+
+Die Traitor müssen alle [Innocents](#Innocent) ausschalten, bevor die Zeit abläuft. Dabei haben sie jedoch einige Vorteile. Zum einen können sie sehen, wer in ihrem Team spielt, zum anderen haben sie Zugriff auf den [Shop](#Shop) und können sich dort nützliche Waffen kaufen. Hier müssen sie allerdings vorsichtig sein, da eine Waffe, die ausschließlich im Shop erhältlich ist (und nicht über eine Klasse), jemanden schnell als Traitor entlarven kann.
+
+### Detective
+
+In größeren Runden gibt es noch eine dritte Rolle: den Detective.
+Jeder kann sehen, wer der/die Detective(s) ist/sind. Ein Detective ist **immer** im Team der [Innocents](#Innocent) und hat somit auch das gleiche Ziel.
+Im Gegensatz zu den Innocents hat dieser, wie die [Traitor](#Traitor) auch einen [Shop](#Shop). Dieser enthält allerdings andere Waffen und Items als der Traitor-Shop, einige kommen jedoch auch in beiden vor.
+Der Detective kann wie die Innocents nur seine eigene Rolle sehen, außer natürlich die Rolle anderer Detectives, da diese ja von jedem gesehen werden kann.
+
+### andere Rollen
+
+Je nach Addons gibt es auch noch weitere Rollen:
+* Jackal und Sidekick
+
+## Spielelemente
+
+### Shop
+
+Der Shop ist eines der wichtigsten Elemente von TTT. Hier können [Traitor](#Traitor) und [Detectives](#Detectives) Waffen und Items kaufen. Diese bezahlen sie mit sogenannten Credits. Zum Start einer Runde erhalten alle, die Zugriff auf den Shop haben eine festgelegte Anzahl an Credits.
+Die Anzahl an Credits kann sich außerdem im Laufe der Runde erhöhen. Dies hängt von der Rolle und den Servereinstellungen ab.
+
+Detective:
+Detectives können Credits erhalten, wenn sie einen Traitor töten oder wenn ein Traitor stirbt (je nach Servereinstellung).
+
+Traitor:
+Ist eine bestimmte Anzahl an Innocents tot, erhalten alle Traitor eine bestimmte Anzahl an Credits. Außerdem kann eigestellt werden, ob dies wiederholt wird oder nicht (z.B.: bei 35% und 70% bzw. nur bei 35%).
+Ein Traitor kann zusätzlich Credits bekommen, wenn er einen Detective tötet (je nach Servereinstellung).
+
+### Karma
+
+Um das zufällige Töten von Spielern zu verhindern, gibt es das Karma System, das je nach Servereinstellung unterschiedlich stark ausgeprägt ist. Verletzt man einen Teammate oder tötet ihn sogar, verliert man Karma. Je weniger Karma man hat desto weniger Schaden macht man. Wenn man zu wenig Karma hat, wird man sogar vom Server gekickt. Bei "gutem" Verhalten, erhöht sich das Karma wieder, bis das Maximum erreicht ist.
