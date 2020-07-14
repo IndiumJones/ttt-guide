@@ -16,11 +16,13 @@
     - [andere Rollen](#andere-Rollen)
 - [Spielelemente](#Spielelemente)
     - [Shop](#Shop)
+    - [Klassen](#Klassen)
     - [Karma](#Karma)
+    - [Confirmen](#Confirmen)
 
 ## Das Spielprinzip
 
-Das Spielprinzip ist ziemlich schnell erklärt. Es gibt zwei Hauptgruppen. Die [Traitor]() und die [Innocents](). Das Ziel ist, das jeweils andere Team auszulöschen. Allerdings haben beide Teams nicht unbedingt die gleichen Vorraussetzungen.
+Das Spielprinzip ist ziemlich schnell erklärt. Es gibt zwei Hauptgruppen. Die [Traitor](#Traitor) und die [Innocents](#Innocent). Das Ziel ist, das jeweils andere Team auszulöschen. Allerdings haben beide Teams nicht unbedingt die gleichen Vorraussetzungen.
 Eine Runde endet, wenn entweder ein Team das andere oder je nach Spielmodus alle anderen besiegt hat oder das Zeitlimit erreicht ist. Dies kann verschiedene Formen annehmen:
 
 ### Haste Mode
@@ -39,7 +41,7 @@ In der "Preparing"-Phase kann jeder Spieler sich mit Waffen ausstatten und sich 
 
 ### Hauptphase
 
-Zu Beginn der Hauptphase werden die Rollen (Innocent, Traitor, etc.) festgelegt. Zusätzlich ist es jedem Spieler noch möglich eine [Klasse]() zu wählen, um bestimmte Waffen oder Items zu erhalten (je nach Klasse), die sonst nur über den Shop erhältlich sind.
+Zu Beginn der Hauptphase werden die Rollen (Innocent, Traitor, etc.) festgelegt. Jeder kann nur eine Rolle haben. Zusätzlich ist es jedem Spieler noch möglich eine [Klasse](#Klassen) zu wählen, um bestimmte Waffen oder Items zu erhalten (je nach Klasse), die sonst nur über den Shop erhältlich sind.
 Nun beginnt das eigentliche Spiel und läuft wie [oben](#Das-Spielprinzip) beschrieben ab.
 
 ### round over
@@ -56,7 +58,7 @@ Des Weiteren haben Innocents kein Zugriff auf den [Shop](#Shop) und müssen sich
 
 ### Traitor
 
-Die Traitor müssen alle [Innocents](#Innocent) ausschalten, bevor die Zeit abläuft. Dabei haben sie jedoch einige Vorteile. Zum einen können sie sehen, wer in ihrem Team spielt, zum anderen haben sie Zugriff auf den [Shop](#Shop) und können sich dort nützliche Waffen kaufen. Hier müssen sie allerdings vorsichtig sein, da eine Waffe, die ausschließlich im Shop erhältlich ist (und nicht über eine Klasse), jemanden schnell als Traitor entlarven kann.
+Die Traitor müssen alle [Innocents](#Innocent) ausschalten, bevor die Zeit abläuft. Dabei haben sie jedoch einige Vorteile. Zum einen können sie sehen, wer in ihrem Team spielt, zum anderen haben sie Zugriff auf den [Shop](#Shop) und können sich dort nützliche Waffen kaufen. Hier müssen sie allerdings vorsichtig sein, da eine Waffe, die ausschließlich im Shop erhältlich ist (und nicht über eine [Klasse](#Klassen)), jemanden schnell als Traitor entlarven kann.
 
 ### Detective
 
@@ -68,7 +70,7 @@ Der Detective kann wie die Innocents nur seine eigene Rolle sehen, außer natür
 ### andere Rollen
 
 Je nach Addons gibt es auch noch weitere Rollen:
-* Jackal und Sidekick
+* [Jackal und Sidekick](jackal.md)
 
 ## Spielelemente
 
@@ -84,6 +86,15 @@ Traitor:
 Ist eine bestimmte Anzahl an Innocents tot, erhalten alle Traitor eine bestimmte Anzahl an Credits. Außerdem kann eigestellt werden, ob dies wiederholt wird oder nicht (z.B.: bei 35% und 70% bzw. nur bei 35%).
 Ein Traitor kann zusätzlich Credits bekommen, wenn er einen Detective tötet (je nach Servereinstellung).
 
+### Klassen
+
+Der Shop ist nicht die einzige Möglichkeit, um an spezielle Waffen und Items zu kommen. Tritt man einer Klasse bei, erhält man bestimmte Waffen bzw. Items (je nach Klasse), die sonst nur im Shop erhältlich sind. Somit hat man auch als Innocent die Möglichkeit mit diesen zu spielen. Es macht also nicht jede Waffe, die man im Shop kaufen kann gleich verdächtig, wenn man kein Detective ist. Einige sind auch über Klassen zu erhalten. Die Klasse, die man besitzt, kann von anderen Spielern nicht gesehen werden.
+
 ### Karma
 
 Um das zufällige Töten von Spielern zu verhindern, gibt es das Karma System, das je nach Servereinstellung unterschiedlich stark ausgeprägt ist. Verletzt man einen Teammate oder tötet ihn sogar, verliert man Karma. Je weniger Karma man hat desto weniger Schaden macht man. Wenn man zu wenig Karma hat, wird man sogar vom Server gekickt. Bei "gutem" Verhalten, erhöht sich das Karma wieder, bis das Maximum erreicht ist.
+
+### Confirmen
+
+Wenn eine Person stirbt, wird sie in der Liste nicht direkt als "confirmed death" angezeigt. Ist man selbst z.B. ein [Traitor](#Traitor) wird diese Person als "missing in action" angezeigt, ist man z.B. ein [Innocent](#Innocent) ändert sich nichts.
+Um den toten Spieler nun für alle als "confirmed death" anzuzeigen, muss man zu dieser hingehen und auf die "E"-Taste drücken. Nun wird die Person als "confirmed death" angezeigt und ihre Rolle enthüllt. Außerdem wird angezeigt, wer sie gefunden hat. Es kann für Traitor aus verschiedenen Gründen strategisch schlau sein, Tode nicht zu bestätigen ("confirm").
