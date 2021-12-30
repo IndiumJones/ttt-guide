@@ -71,6 +71,14 @@ Der Detective kann wie die Innocents nur seine eigene Rolle sehen, außer natür
 
 Je nach Addons gibt es auch noch weitere Rollen:
 * [Jackal und Sidekick](jackal.md)
+* [Sheriff und Deputy](sheriff.md)
+* [Necromancer](necromancer.md)
+* [Spy](spy.md)
+* [Marker](marker.md)
+* [Infected](infected.md)
+* [Hitman](hitman.md)
+* [Swapper](swapper.md)
+
 
 ## Spielelemente
 
