@@ -2,7 +2,7 @@
 
 ## Zusammenfassung
 
-Das Addon Spy fügt den Spion als neue Rolle hinzu.
+Das Addon Spy fügt den [Spion](https://github.com/IndiumJones/ttt-guide/edit/master/spy.md#Spion) als neue Rolle hinzu.
 
 ### Spion
 
