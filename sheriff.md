@@ -5,7 +5,7 @@ Das Addon Sheriff fügt zwei neue Rollen hinzu: den Sheriff und den Deputy.
 
 ### Sheriff
 
-Der Sheriff beschützt seit jeher seine Stadt vor Traitorn. Bei Nutzung des Addons wird unter Umständen der Detective gegen einen Sheriff ersetzt. Der Sheriff ist im Team der Innocents und gewinnt somit, wenn die Traitor besiegt wurden. (Die Rolle des Sheriffs kann nur durch einen Treffer der "Sidekick-Deagle" ([Jackal](https://github.com/IndiumJones/ttt-guide/blob/master/jackal.md)) geändert werden. Der Deputy kann vor seiner Ernennung jede Rolle tragen.) Der Sheriff kann jeden beliebigen Spieler mit einem Treffer der "Deputy-Deagle" zum Deputy schießen.
+Der Sheriff beschützt seit jeher seine Stadt vor Traitorn. Bei Nutzung des Addons wird unter Umständen der Detective gegen einen Sheriff ersetzt. Der Sheriff ist im Team der Innocents und gewinnt somit, wenn die Traitor besiegt wurden. (Die Rolle des Sheriffs kann nur durch einen Treffer der "Sidekick-Deagle" (siehe [Jackal](https://github.com/IndiumJones/ttt-guide/blob/master/jackal.md)) geändert werden. Der Deputy kann vor seiner Ernennung jede Rolle tragen.) Der Sheriff kann jeden beliebigen Spieler mit einem Treffer der "Deputy-Deagle" zum Deputy schießen.
 Wie auch der Detective besitzt der Sheriff einen Shop.
 
 ### Deputy
