@@ -12,3 +12,4 @@ Wie auch der Detective besitzt der Sheriff einen Shop.
 
 Der Deputy fungiert als rechte Hand des Sheriffs. Unabhängig von der eigenen Rolle zu Beginn der Runde, tritt man mit dem Treffer der "Deputy-Deagle" dem Team der Innocents bei. Allen anderen Spielern wird nun ebenfalls die neue Rolle als Deputy angezeigt.
 Wenn der Sheriff stirbt, verliert auch der Deputy sein Leben. Sorge also besser dafür, dass der Sheriff kein Revolverduell verliert.
+Als Hilfssheriff besitzt auch der Deputy einen Shop.
